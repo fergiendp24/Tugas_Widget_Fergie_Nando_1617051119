@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="441dp"
+    android:padding="5dp"
+    android:background="@color/colorAzur"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtclose20"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="X"
+        android:background="@drawable/circleclose"
+        android:layout_gravity="end"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="T"
+            android:gravity="center_horizontal"
+            android:textSize="140sp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ikan yang mahal dan dijadikan pempek"
+            android:textSize="22sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <Button
+                android:onClick="jawabAno20"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Tuna"
+                android:textSize="18sp"
+                android:textColor="@color/ColorWhite"
+                />
+
+            <Button
+                android:onClick="jawabBno20"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Tenggiri"
+                android:textSize="18sp"
+                android:textColor="@color/ColorWhite"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:onClick="jawabCno20"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Teri"
+                android:textSize="18sp"
+                android:textColor="@color/ColorWhite"
+                />
+
+            <Button
+                android:onClick="jawabDno20"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Tiram"
+                android:textSize="18sp"
+                android:textColor="@color/ColorWhite"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

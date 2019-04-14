@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B1</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorPrimaryDark1">#3F51B5</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorLogin">#3F51B5</color>
+    <color name="colorLogin1">#3F51B5</color>
+    <color name="colorLogin2">#3F51B5</color>
+    <color name="colorLogin3">#3F51B5</color>
+    <color name="colorAzur">#F1F5F8</color>
+    <color name="ColorWhite">#FFFFFF</color>
+    <color name="colorSigup">#3F51B5</color>
+    <color name="colorSigup1">#3F51B5</color>
+    <color name="colorSigup2">#FF4081</color>
+    <color name="color1">#0F51B5</color>
+    <color name="colorGraylight">#FAFAFA</color>
+    <color name="colorStartRed">#CD5C5C</color>
+    <color name="colorEndRed">#F08080</color>
+</resources>
